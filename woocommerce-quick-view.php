@@ -15,13 +15,8 @@ Author URI: http://woocommerce.com/
 /**
  * Required functions
  */
-if ( ! function_exists( 'woothemes_queue_update' ) )
+if ( ! function_exists( 'is_woocommerce_active' ) )
 	require_once( 'woo-includes/woo-functions.php' );
-
-/**
- * Plugin updates
- */
-woothemes_queue_update( plugin_basename( __FILE__ ), '619c6e57ce72c49c4b57e15b06eddb65', '187509' );
 
 /**
  * Plugin page links
