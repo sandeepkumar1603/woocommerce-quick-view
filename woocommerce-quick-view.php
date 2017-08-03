@@ -178,7 +178,7 @@ if ( is_woocommerce_active() ) {
 										jQuery('.woocommerce-product-gallery__wrapper > .woocommerce-product-gallery__image').trigger('zoom.destroy'); // remove zoom
 										jQuery('.woocommerce-product-gallery__wrapper > .woocommerce-product-gallery__image').zoom({
 											callback: function(){
-												jQuery('.woocommerce-product-gallery').data('flexslider').flexAnimate(0);
+												//jQuery('.woocommerce-product-gallery').data('flexslider').flexAnimate(0);
 											}
 										});
 									})
